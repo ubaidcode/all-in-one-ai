@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>All in One AI</title>
+
+    <meta
+        name="description"
+        content="All in One AI - Powerful AI tools and smart finding services in one place."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="background-effects">
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+
+        <div class="brand">
+            <div class="brand-icon">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </div>
+
+            <div>
+                <h2>All in One AI</h2>
+                <span>Smart tools. One place.</span>
+            </div>
+        </div>
+
+
+        <nav class="side-nav">
+
+            <a href="#home" class="nav-item active">
+                <i class="fa-solid fa-house"></i>
+                <span>Dashboard</span>
+            </a>
+
+            <a href="#ai-tools" class="nav-item">
+                <i class="fa-solid fa-robot"></i>
+                <span>AI Tools</span>
+            </a>
+
+            <a href="#finding" class="nav-item">
+                <i class="fa-solid fa-compass"></i>
+                <span>Helping & Finding</span>
+            </a>
+
+            <a href="#categories" class="nav-item">
+                <i class="fa-solid fa-layer-group"></i>
+                <span>Categories</span>
+            </a>
+
+        </nav>
+
+
+        <div class="sidebar-bottom">
+
+            <div class="mini-card">
+                <div class="mini-icon">
+                    <i class="fa-solid fa-bolt"></i>
+                </div>
+
+                <div>
+                    <strong>AI Workspace</strong>
+                    <p>Everything you need.</p>
+                </div>
+            </div>
+
+            <button class="sidebar-settings" id="themeToggle">
+                <i class="fa-solid fa-moon"></i>
+                <span>Appearance</span>
+            </button>
+
+        </div>
+
+    </aside>
+
+
+    <!-- Main -->
+    <main class="main-content" id="home">
+
+        <!-- Topbar -->
+        <header class="topbar">
+
+            <button class="mobile-menu" id="mobileMenu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="topbar-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input
+                    type="text"
+                    id="globalSearch"
+                    placeholder="Search AI tools, services or categories..."
+                >
+
+                <span class="search-shortcut">CTRL K</span>
+            </div>
+
+
+            <div class="top-actions">
+
+                <button class="icon-button" title="Notifications">
+                    <i class="fa-regular fa-bell"></i>
+                    <span class="notification-dot"></span>
+                </button>
+
+                <button class="profile-button">
+                    <div class="profile-avatar">AI</div>
+
+                    <div class="profile-info">
+                        <strong>AI Workspace</strong>
+                        <span>Explorer</span>
+                    </div>
+
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+            </div>
+
+        </header>
+
+
+        <!-- Hero -->
+        <section class="hero-section">
+
+            <div class="hero-content">
+
+                <div class="hero-badge">
+                    <span class="pulse"></span>
+                    AI-powered digital workspace
+                </div>
+
+                <h1>
+                    Everything you need.
+                    <span>All in One AI.</span>
+                </h1>
+
+                <p>
+                    Create, improve, discover and explore powerful AI tools
+                    from one intelligent workspace designed to make your
+                    digital life easier.
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <a href="#ai-tools" class="primary-button">
+                        <i class="fa-solid fa-rocket"></i>
+                        Explore AI Tools
+                    </a>
+
+                    <a href="#finding" class="secondary-button">
+                        <i class="fa-solid fa-compass"></i>
+                        Find Something
+                    </a>
+
+                </div>
+
+
+                <div class="hero-trust">
+
+                    <div class="trust-avatars">
+                        <span>AI</span>
+                        <span>+</span>
+                        <span>∞</span>
+                    </div>
+
+                    <p>
+                        One workspace for your everyday digital needs
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-visual">
+
+                <div class="orbital orbital-one"></div>
+                <div class="orbital orbital-two"></div>
+
+                <div class="ai-orb">
+
+                    <div class="orb-core">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+
+                    <span class="orbit-icon icon-one">
+                        <i class="fa-solid fa-image"></i>
+                    </span>
+
+                    <span class="orbit-icon icon-two">
+                        <i class="fa-solid fa-file-lines"></i>
+                    </span>
+
+                    <span class="orbit-icon icon-three">
+                        <i class="fa-solid fa-code"></i>
+                    </span>
+
+                    <span class="orbit-icon icon-four">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Stats -->
+        <section class="stats-section">
+
+            <div class="stat-card">
+                <div class="stat-icon purple">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                </div>
+
+                <div>
+                    <strong>6+</strong>
+                    <span>AI Tools</span>
+                </div>
+            </div>
+
+
+            <div class="stat-card">
+                <div class="stat-icon blue">
+                    <i class="fa-solid fa-compass"></i>
+                </div>
+
+                <div>
+                    <strong>60+</strong>
+                    <span>Shopping Websites</span>
+                </div>
+            </div>
+
+
+            <div class="stat-card">
+                <div class="stat-icon cyan">
+                    <i class="fa-solid fa-gamepad"></i>
+                </div>
+
+                <div>
+                    <strong>4</strong>
+                    <span>Discovery Categories</span>
+                </div>
+            </div>
+
+
+            <div class="stat-card">
+                <div class="stat-icon green">
+                    <i class="fa-solid fa-bolt"></i>
+                </div>
+
+                <div>
+                    <strong>24/7</strong>
+                    <span>Digital Workspace</span>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- AI Tools -->
+        <section class="content-section" id="ai-tools">
+
+            <div class="section-heading">
+
+                <div>
+                    <div class="section-label">
+                        <span></span>
+                        AI TOOLKIT
+                    </div>
+
+                    <h2>Powerful tools, <span>one workspace.</span></h2>
+
+                    <p>
+                        Choose an AI tool and get started instantly.
+                    </p>
+                </div>
+
+
+                <div class="section-controls">
+
+                    <button class="filter-button active" data-filter="all">
+                        All
+                    </button>
+
+                    <button class="filter-button" data-filter="creative">
+                        Creative
+                    </button>
+
+                    <button class="filter-button" data-filter="productivity">
+                        Productivity
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="tools-grid" id="toolsGrid">
+
+
+                <!-- Picture Maker -->
+                <article
+                    class="tool-card"
+                    data-category="creative"
+                    data-search="picture maker image generator ai image prompt"
+                >
+
+                    <div class="card-top">
+
+                        <div class="tool-icon picture-icon">
+                            <i class="fa-solid fa-image"></i>
+                        </div>
+
+                        <span class="card-arrow">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <div class="card-tag">AI CREATIVE</div>
+
+                        <h3>Picture Maker</h3>
+
+                        <p>
+                            Turn your ideas into stunning images. Enter your
+                            prompt and let AI enhance your idea first, then
+                            create a polished picture for you.
+                        </p>
+
+                    </div>
+
+
+                    <a
+                        href="https://pictures-generator.streamlit.app/"
+                        target="_blank"
+                        class="card-link"
+                    >
+                        Open Picture Maker
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </article>
+
+
+                <!-- Resume Maker -->
+                <article
+                    class="tool-card"
+                    data-category="productivity"
+                    data-search="resume cv maker career job resume builder"
+                >
+
+                    <div class="card-top">
+
+                        <div class="tool-icon resume-icon">
+                            <i class="fa-solid fa-file-user"></i>
+                        </div>
+
+                        <span class="card-arrow">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <div class="card-tag">CAREER</div>
+
+                        <h3>Resume / CV Maker</h3>
+
+                        <p>
+                            Build a professional resume or CV by entering
+                            your personal information, skills, experience
+                            and career details.
+                        </p>
+
+                    </div>
+
+
+                    <a
+                        href="https://resume-maker-tool.streamlit.app/"
+                        target="_blank"
+                        class="card-link"
+                    >
+                        Open Resume Maker
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </article>
+
+
+                <!-- Content Assistant -->
+                <article
+                    class="tool-card"
+                    data-category="creative"
+                    data-search="content creation video caption description hashtags keywords"
+                >
+
+                    <div class="card-top">
+
+                        <div class="tool-icon content-icon">
+                            <i class="fa-solid fa-film"></i>
+                        </div>
+
+                        <span class="card-arrow">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <div class="card-tag">CONTENT AI</div>
+
+                        <h3>Content Creator Assistant</h3>
+
+                        <p>
+                            Describe your video and get an AI-generated
+                            caption, detailed description, relevant keywords
+                            and hashtags ready for your content.
+                        </p>
+
+                    </div>
+
+
+                    <a
+                        href="https://ai-in-content-writing.streamlit.app/"
+                        target="_blank"
+                        class="card-link"
+                    >
+                        Open Content Assistant
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </article>
+
+
+                <!-- Typing Tester -->
+                <article
+                    class="tool-card"
+                    data-category="productivity"
+                    data-search="typing speed tester keyboard wpm history easy hard difficult"
+                >
+
+                    <div class="card-top">
+
+                        <div class="tool-icon typing-icon">
+                            <i class="fa-solid fa-keyboard"></i>
+                        </div>
+
+                        <span class="card-arrow">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <div class="card-tag">SKILLS</div>
+
+                        <h3>Typing Speed Tester</h3>
+
+                        <p>
+                            Test your typing speed with Easy, Hard and
+                            Difficult levels. Track your results and review
+                            your typing history.
+                        </p>
+
+                    </div>
+
+
+                    <a
+                        href="https://speed-of-typing.streamlit.app/"
+                        target="_blank"
+                        class="card-link"
+                    >
+                        Test Typing Speed
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </article>
+
+
+                <!-- Obaid AI -->
+                <article
+                    class="tool-card featured-card"
+                    data-category="productivity"
+                    data-search="obaid ai chatbot assistant research questions conversation"
+                >
+
+                    <div class="featured-glow"></div>
+
+                    <div class="card-top">
+
+                        <div class="tool-icon obaid-icon">
+                            <i class="fa-solid fa-robot"></i>
+                        </div>
+
+                        <span class="featured-label">
+                            AI ASSISTANT
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <div class="card-tag">SMART ASSISTANT</div>
+
+                        <h3>Obaid AI</h3>
+
+                        <p>
+                            Talk with Obaid AI, ask questions, explore ideas
+                            and get helpful answers with intelligent research
+                            assistance.
+                        </p>
+
+                    </div>
+
+
+                    <a
+                        href="https://ubaidai.streamlit.app/"
+                        target="_blank"
+                        class="card-link"
+                    >
+                        Chat with Obaid AI
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </article>
+
+
+                <!-- Prompt Enhancer -->
+                <article
+                    class="tool-card"
+                    data-category="creative"
+                    data-search="prompt enhancer chatgpt gemini prompt improvement ai"
+                >
+
+                    <div class="card-top">
+
+                        <div class="tool-icon prompt-icon">
+                            <i class="fa-solid fa-wand-sparkles"></i>
+                        </div>
+
+                        <span class="card-arrow">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <div class="card-tag">PROMPT AI</div>
+
+                        <h3>Prompt Enhancer</h3>
+
+                        <p>
+                            Improve your prompts using multiple AI perspectives.
+                            Get enhanced versions from ChatGPT and Gemini,
+                            then choose the suggestion that works best for you.
+                        </p>
+
+                    </div>
+
+
+                    <a
+                        href="https://prompt-enhancer-tool.streamlit.app/"
+                        target="_blank"
+                        class="card-link"
+                    >
+                        Enhance Your Prompt
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </article>
+
+            </div>
+
+
+            <div class="empty-state" id="emptyState">
+
+                <div class="empty-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <h3>No tools found</h3>
+
+                <p>Try another search or category.</p>
+
+            </div>
+
+        </section>
+
+
+        <!-- Finding Section -->
+        <section class="finding-section" id="finding">
+
+            <div class="finding-header">
+
+                <div>
+
+                    <div class="section-label">
+                        <span></span>
+                        SMART DISCOVERY
+                    </div>
+
+                    <h2>
+                        Helping you <span>find what matters.</span>
+                    </h2>
+
+                    <p>
+                        Explore useful websites and services without
+                        wasting time searching everywhere.
+                    </p>
+
+                </div>
+
+                <div class="discovery-badge">
+                    <i class="fa-solid fa-compass"></i>
+                    Smart Finding
+                </div>
+
+            </div>
+
+
+            <div class="finding-grid">
+
+
+                <!-- Shopping -->
+                <article class="finding-card shopping-card">
+
+                    <div class="finding-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+
+                    <div class="finding-content">
+
+                        <span>60+ WEBSITES</span>
+
+                        <h3>Online Shopping</h3>
+
+                        <p>
+                            Discover online shopping websites organized
+                            into useful categories. Search and find the
+                            right platform for what you need.
+                        </p>
+
+                        <a href="https://ubaidcode.github.io/online-shoping-helper/">
+                            Explore Shopping
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Gaming -->
+                <article class="finding-card gaming-card">
+
+                    <div class="finding-icon">
+                        <i class="fa-solid fa-gamepad"></i>
+                    </div>
+
+                    <div class="finding-content">
+
+                        <span>GAMING DIRECTORY</span>
+
+                        <h3>Gaming Websites</h3>
+
+                        <p>
+                            Find useful gaming platforms, communities,
+                            game-related websites and services in one
+                            organized place.
+                        </p>
+
+                        <a href="https://ubaidcode.github.io/gamer-websites/">
+                            Explore Gaming
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Freelancing -->
+                <article class="finding-card freelance-card">
+
+                    <div class="finding-icon">
+                        <i class="fa-solid fa-briefcase"></i>
+                    </div>
+
+                    <div class="finding-content">
+
+                        <span>FREELANCE DIRECTORY</span>
+
+                        <h3>Freelancing</h3>
+
+                        <p>
+                            Explore freelancing platforms by skill and
+                            category, including video editing, web
+                            development, graphic design, logos and more.
+                        </p>
+
+                        <a href="https://ubaidcode.github.io/helping-in-freelancing/">
+                            Explore Freelancing
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Education -->
+                <article class="finding-card education-card">
+
+                    <div class="finding-icon">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+
+                    <div class="finding-content">
+
+                        <span>LEARNING DIRECTORY</span>
+
+                        <h3>Education</h3>
+
+                        <p>
+                            Find educational websites, learning platforms,
+                            courses, resources and tools organized to make
+                            learning easier.
+                        </p>
+
+                        <a href="https://ubaidcode.github.io/education-helper/">
+                            Explore Education
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Categories -->
+        <section class="content-section" id="categories">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <div class="section-label">
+                        <span></span>
+                        EXPLORE
+                    </div>
+
+                    <h2>Explore by <span>category.</span></h2>
+
+                    <p>
+                        Quickly jump into the type of service you're looking for.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="category-grid">
+
+                <a href="#finding" class="category-box">
+                    <div class="category-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+
+                    <div>
+                        <h3>Shopping</h3>
+                        <p>Find online stores</p>
+                    </div>
+
+                    <i class="fa-solid fa-arrow-right category-arrow"></i>
+                </a>
+
+
+                <a href="#finding" class="category-box">
+                    <div class="category-icon">
+                        <i class="fa-solid fa-gamepad"></i>
+                    </div>
+
+                    <div>
+                        <h3>Gaming</h3>
+                        <p>Explore gaming platforms</p>
+                    </div>
+
+                    <i class="fa-solid fa-arrow-right category-arrow"></i>
+                </a>
+
+
+                <a href="#finding" class="category-box">
+                    <div class="category-icon">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+
+                    <div>
+                        <h3>Freelancing</h3>
+                        <p>Find freelance platforms</p>
+                    </div>
+
+                    <i class="fa-solid fa-arrow-right category-arrow"></i>
+                </a>
+
+
+                <a href="#finding" class="category-box">
+                    <div class="category-icon">
+                        <i class="fa-solid fa-book-open"></i>
+                    </div>
+
+                    <div>
+                        <h3>Education</h3>
+                        <p>Discover learning resources</p>
+                    </div>
+
+                    <i class="fa-solid fa-arrow-right category-arrow"></i>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- CTA -->
+        <section class="cta-section">
+
+            <div class="cta-glow"></div>
+
+            <div class="cta-content">
+
+                <div class="cta-icon">
+                    <i class="fa-solid fa-sparkles"></i>
+                </div>
+
+                <h2>
+                    One place.
+                    <span>Endless possibilities.</span>
+                </h2>
+
+                <p>
+                    Create with AI, improve your work, test your skills,
+                    chat with an assistant and discover useful websites.
+                </p>
+
+                <a href="#ai-tools" class="primary-button">
+                    Start Exploring
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+
+            <div class="footer-brand">
+
+                <div class="brand-icon small">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                </div>
+
+                <div>
+                    <strong>All in One AI</strong>
+                    <span>Your intelligent digital workspace.</span>
+                </div>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#home">Home</a>
+                <a href="#ai-tools">AI Tools</a>
+                <a href="#finding">Finding</a>
+                <a href="#categories">Categories</a>
+
+            </div>
+
+
+            <p class="copyright">
+                © 2026 All in One AI. All rights reserved.
+            </p>
+
+        </footer>
+
+    </main>
+
+
+    <!-- Mobile Overlay -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
